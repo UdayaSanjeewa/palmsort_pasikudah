@@ -24,7 +24,7 @@ function ContactSection() {
           </div>
           <div className="flex gap-5 items-center">
             <FaAt />
-            <p>PALMSORTPASIKUDAH@gmail.com</p>
+            <p>info@pasikudahpalmsort.com</p>
           </div>
         </div>
       </div>

@@ -36,7 +36,7 @@ function Footer() {
             </div>
             <div className="flex gap-5 items-center">
               <FaAt className="text-[#41BB16]" />
-              <p>PALMSORTPASIKUDAH@gmail.com</p>
+              <p>info@pasikudahpalmsort.com</p>
             </div>
           </div>
         </div>

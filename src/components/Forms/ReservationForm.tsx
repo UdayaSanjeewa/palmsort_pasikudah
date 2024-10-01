@@ -15,7 +15,7 @@ function ReservationForm() {
       </div>
       <div className="flex gap-5 items-center text-[14px] text-[#001946]">
         <FaAt className="text-[20px] " />
-        <p>PALMSORTPASIKUDAH@gmail.com</p>
+        <p>info@pasikudahpalmsort.com</p>
       </div>
 
       <form
