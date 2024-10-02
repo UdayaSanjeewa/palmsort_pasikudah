@@ -21,14 +21,6 @@ function OwnersSection() {
         </p>
 
         <div className="xl:w-[552px] h-[400px] w-[320px] lg:h-[500px] border-[3px] border-[#00329599] flex flex-col justify-center gap-10">
-          <div className="flex gap-5 items-center ml-[30px]  xl:ml-[80px]">
-            <Image
-              src={OwnersIMGTwo}
-              alt="OwnersIMGTwo"
-              className=" xl:w-[161px] xl:h-[161px] w-[100px] h-[100px] rounded-full"
-            />
-            <p className="text-[25px] font-[500]">Mr. C David</p>
-          </div>
           <div className="flex gap-5 items-center ml-[30px] xl:ml-[80px]">
             <Image
               src={OwnersIMGThree}
@@ -36,6 +28,14 @@ function OwnersSection() {
               className="xl:w-[161px] xl:h-[161px] w-[100px] h-[100px] rounded-[85px]"
             />
             <p className="text-[25px] font-[500] ">Mrs. V Nirmaladevi</p>
+          </div>
+          <div className="flex gap-5 items-center ml-[30px]  xl:ml-[80px]">
+            <Image
+              src={OwnersIMGTwo}
+              alt="OwnersIMGTwo"
+              className=" xl:w-[161px] xl:h-[161px] w-[100px] h-[100px] rounded-full"
+            />
+            <p className="text-[25px] font-[500]">Mr. C David</p>
           </div>
         </div>
       </div>
