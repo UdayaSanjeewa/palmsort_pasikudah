@@ -1,6 +1,7 @@
 import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaAt } from "react-icons/fa";
+import Link from "next/link";
 
 function Footer() {
   return (
@@ -16,9 +17,9 @@ function Footer() {
           Quick Links
         </div>
         <div className="text-[18px] mt-[30px] lg:text-[22px] text-[#D9D9D9CC] opacity-[80%] flex flex-col gap-5">
-          <p>About Us</p>
-          <p>Contact Us</p>
-          <p>Privacy Policy</p>
+          <Link href={"/#about-us"}><p>About Us</p></Link>
+          <Link href={"/#contact-us"}><p>Contact Us</p></Link>
+          <Link href={"/"}><p>Privacy Policy</p></Link>
         </div>
       </div>
 
