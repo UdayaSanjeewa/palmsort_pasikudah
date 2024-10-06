@@ -55,7 +55,7 @@ function NavBar() {
       <div
         className={`${
           isOpen ? "block" : "hidden"
-        } lg:flex lg:w-[576px] lg:justify-between lg:text-[20px] lg:font-[600] absolute font-onest lg:static top-[100%] left-0 w-full bg-white lg:bg-transparent`}
+        } lg:flex lg:w-[650px] lg:justify-between lg:text-[20px] lg:font-[600] absolute font-onest lg:static top-[100%] left-0 w-full bg-white lg:bg-transparent`}
       >
         <Link
           href="/"
@@ -74,6 +74,12 @@ function NavBar() {
           className="block py-2 px-4 text-center lg:inline-block lg:py-0 lg:px-0"
         >
           Contact Us
+        </Link>
+        <Link
+          href="/Gallery"
+          className="block py-2 px-4 text-center lg:inline-block lg:py-0 lg:px-0"
+        >
+          Gallery
         </Link>
         <Link
           href="/PrivacyPolicy"
