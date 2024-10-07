@@ -5,7 +5,7 @@ import Mission from "@/resources/Mission.jpeg";
 
 function BottomSection() {
   return (
-    <div className="h-[1100px] w-full flex flex-col  items-center">
+    <div className="h-[1100px] lg:[1000px]  w-full flex flex-col  items-center">
       <div className="2xl:w-[1476px] lg:w-[1000px] h-[370px] lg:h-[420px] flex flex-col lg:flex-row ">
         <div className="lg:w-[500px] 2xl:w-[738px] w-[320px] bg-[#EAEDF2] flex  justify-center flex-col gap-5 text-balance p-10 lg:p-0 lg:pl-[60px]">
           <p className="lg:text-[30px] font-[400] font-paprika">Our Vision</p>
