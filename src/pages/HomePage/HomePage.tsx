@@ -11,6 +11,7 @@ import Footer from "@/components/Footer";
 
 import * as motion from "framer-motion/client";
 import fadeIn from "../../variants";
+import Map from "@/components/HomePage/Map";
 
 
 function HomePage() {
@@ -68,6 +69,15 @@ function HomePage() {
         viewport={{ once: true, amount: 0.4 }} 
       >
         <BottomSection />
+      </motion.div>
+
+      <motion.div
+        variants={fadeIn("up", 0.3)} 
+        initial="hidden" 
+        whileInView="show" 
+        viewport={{ once: true, amount: 0.4 }} 
+      >
+        <Map />
       </motion.div>
 
       <Footer />
