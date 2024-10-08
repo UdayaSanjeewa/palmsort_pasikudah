@@ -1,7 +1,6 @@
 import Image from "next/image";
 import React from "react";
 import OwnersIMGOne from "@/resources/OwnersIMGOne.jpeg";
-import OwnersIMGTwo from "@/resources/OwnersIMGTwo.jpeg";
 import OwnersIMGThree from "@/resources/OwnersIMGThree.jpeg";
 
 function OwnersSection() {
