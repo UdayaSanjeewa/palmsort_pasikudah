@@ -82,7 +82,7 @@ function NavBar() {
           Gallery
         </Link>
         <Link
-          href="/PrivacyPolicy"
+          href="/privacypolicy"
           className="block py-2 px-4 text-center lg:inline-block lg:py-0 lg:px-0"
         >
           Privacy Policy

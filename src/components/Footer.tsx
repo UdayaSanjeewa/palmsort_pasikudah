@@ -19,7 +19,7 @@ function Footer() {
         <div className="text-[18px] mt-[30px] lg:text-[22px] text-[#D9D9D9CC] opacity-[80%] flex flex-col gap-5">
           <Link href={"/#about-us"}><p>About Us</p></Link>
           <Link href={"/#contact-us"}><p>Contact Us</p></Link>
-          <Link href={"/"}><p>Privacy Policy</p></Link>
+          <Link href={"/privacypolicy"}><p>Privacy Policy</p></Link>
         </div>
       </div>
 
