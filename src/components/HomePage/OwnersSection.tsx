@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import OwnersIMGOne from "@/resources/OwnersIMGOne.jpeg";
+import OwnersIMGTwo from "@/resources/OwnersIMGTwo.jpeg"
 import OwnersIMGThree from "@/resources/OwnersIMGThree.jpeg";
 
 function OwnersSection() {
@@ -28,14 +29,14 @@ function OwnersSection() {
             />
             <p className="text-[25px] font-[500] ">Mrs. V Nirmaladevi</p>
           </div>
-          {/* <div className="flex gap-5 items-center ml-[30px]  xl:ml-[80px]">
+          <div className="flex gap-5 items-center ml-[30px]  xl:ml-[80px]">
             <Image
               src={OwnersIMGTwo}
               alt="OwnersIMGTwo"
               className=" xl:w-[161px] xl:h-[161px] w-[100px] h-[100px] rounded-full"
             />
             <p className="text-[25px] font-[500]">Mr. C David</p>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
