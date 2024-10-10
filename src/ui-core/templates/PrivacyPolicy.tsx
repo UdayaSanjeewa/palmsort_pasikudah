@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer'
 import NavBar from '@/components/NavBar'
 import React from 'react'
 
@@ -5,7 +6,7 @@ function PrivacyPolicy() {
   return (
     <div>
       <NavBar />
-      <div className='container mx-auto px-10 pt-6 text-justify'>
+      <div className='container mx-auto px-10 pt-6 text-justify pb-20'>
       <h4 className='font-bold'>Privacy Policy</h4>
       <p>Last updated: October 09, 2024</p>
       <p>This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.</p>
@@ -165,6 +166,7 @@ function PrivacyPolicy() {
         <li>By email: info@pasikudahpalmsort.com</li>
       </ul>
       </div>
+      <Footer/>
     </div>
   )
 }
