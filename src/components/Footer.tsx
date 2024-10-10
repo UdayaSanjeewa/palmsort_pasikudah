@@ -2,13 +2,16 @@ import React from "react";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaAt } from "react-icons/fa";
 import Link from "next/link";
+import Image from "next/image";
+import Logo from "@/resources/logo.png"
 
 function Footer() {
   return (
     <div className="font-onest flex flex-col pl-[20px] lg:pl-[0px] lg:flex-row lg:h-[457px] h-[650px] text-white bg-[#001946] lg:justify-evenly lg:items-center">
       {/*Logo*/}
-      <div className="font-paprika mt-[50px]  lg:mt-[150px] text-[35px]">
-        Palm Sort
+      <div className="font-paprika mt-[50px]  lg:mt-[80px] text-[35px] items-center justify-center lg:gap-3  flex">
+      <Image src={Logo} alt="logo" height={10} width={50}/>
+      <p>Palm Sort</p>
       </div>
 
       {/* QuickLinks */}

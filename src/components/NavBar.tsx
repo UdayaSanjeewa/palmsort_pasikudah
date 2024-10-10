@@ -1,6 +1,8 @@
 'use client'
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import Logo from "@/resources/logo.png"
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -9,8 +11,9 @@ function NavBar() {
     // Main Container
     <div className="w-full h-[50px] lg:h-[75px] flex justify-around items-center shadow-lg sticky top-0 z-20 bg-white">
       {/* Logo */}
-      <div className="text-[22px] font-[400] font-paprika">
-        Palm Sort
+      <div className="text-[22px] font-[400] font-paprika items-center justify-center lg:gap-3  flex">
+        <Image src={Logo} alt="logo" height={10} width={50}/>
+        <p>Palm Sort</p>
       </div>
 
       {/* Menu Button for Small Screens */}
