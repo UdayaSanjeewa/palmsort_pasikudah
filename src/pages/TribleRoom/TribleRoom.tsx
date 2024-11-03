@@ -26,7 +26,7 @@ import { MdFamilyRestroom } from "react-icons/md";
 const TribleRoomData = {
   HeroSection: {
     title: "Trible Room",
-    NonACPrice: "4000",
+    NonACPrice: "5000",
     ACprice: "6500",
     Img: RoomsHeroIMG,
   },
