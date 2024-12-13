@@ -21,7 +21,7 @@ const DRoom = {
 const TRoom = {
   IMG: TribleRoom,
   name: "Trible Room",
-  price: "4000",
+  price: "5000",
   link: "/TribleRoom",
 };
 
