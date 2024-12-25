@@ -12,7 +12,7 @@ function NavBar() {
     <div className="w-full h-[50px] lg:h-[75px] flex justify-around items-center shadow-lg sticky top-0 z-20 bg-white">
       {/* Logo */}
       <div className="text-[22px] font-[400] font-paprika items-center justify-center lg:gap-3  flex">
-        <Image src={Logo} alt="logo" height={10} width={50}/>
+        <Image src={Logo} alt="logo" height={10} width={60}/>
         <p>Palm Sort</p>
       </div>
 

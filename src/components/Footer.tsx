@@ -10,7 +10,7 @@ function Footer() {
     <div className="font-onest flex flex-col pl-[20px] lg:pl-[0px] lg:flex-row lg:h-[457px] h-[650px] text-white bg-[#001946] lg:justify-evenly lg:items-center">
       {/*Logo*/}
       <div className="font-paprika mt-[50px]  lg:mt-[80px] text-[35px] items-center justify-center lg:gap-3  flex">
-        <Image src={Logo} alt="logo" height={10} width={50} />
+        <Image src={Logo} alt="logo" height={10} width={60} />
         <p>Palm Sort</p>
       </div>
 
