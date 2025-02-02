@@ -20,7 +20,7 @@ function ContactSection() {
         <div className="xl:w-[550px] lg:w-[400px] w-[350px] h-[80px] lg:h-[120px] xl:h-[150px] flex flex-col xl:pl-[50px] bg-[#41BB16] items-center rounded-[12px] text-white font-onest lg:text-[20px] xl:text-[22px] lg:font-[600] justify-evenly">
           <div className="flex gap-5 items-center">
             <FiPhoneCall />
-            <p>+94 652 053680 / +94 777 670333</p>
+            <p>+94 652 053680</p>
           </div>
           <div className="flex gap-5 items-center">
             <FaAt />

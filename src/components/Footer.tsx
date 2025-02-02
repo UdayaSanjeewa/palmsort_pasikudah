@@ -42,7 +42,7 @@ function Footer() {
           <div className="text-[18px] mt-[30px] lg:text-[22px] font-[600] flex flex-col gap-5 lg:mb-[25px]">
             <div className="flex gap-5 items-center">
               <FiPhoneCall className="text-[#41BB16]" />
-              <p>+94 652 053680 / +94 777 670333</p>
+              <p>+94 652 053680</p>
             </div>
             <div className="flex gap-5 items-center">
               <FaAt className="text-[#41BB16]" />

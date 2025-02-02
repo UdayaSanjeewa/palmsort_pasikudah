@@ -11,7 +11,7 @@ function ReservationForm() {
 
       <div className="flex gap-5 items-center text-[14px] text-[#001946]">
         <FiPhoneCall className="text-[20px] " />
-        <p>+94 652 053682 / +94 777 670333</p>
+        <p>+94 652 053680</p>
       </div>
       <div className="flex gap-5 items-center text-[14px] text-[#001946]">
         <FaAt className="text-[20px] " />
